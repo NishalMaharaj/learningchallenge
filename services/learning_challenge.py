@@ -28,7 +28,7 @@ class LearningChallengeService:
 
     @rpc
     def compress_string(self, plaintext):
-        return b64encode(self.codec.encode(plaintext))
+        return b64encode(self.codec.encode(plaintext)).decode("utf-8")
 
     @rpc
     def decode_string(self, encodedString):
