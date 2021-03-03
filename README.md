@@ -27,3 +27,7 @@ Challenges experienced
 
 Frameworks:
 1. I enjoyed using the Nameko framework. There's no boiler plate which makes it easy to concentrate on the logic. It makes setting up the microservices and distributed architecture simple. It also makes continuous integration and deployment easy. The different transport protocols(HTTP, RTC and event processing) makes it versatile. I will definately be using this framework going forward. The documentation is a bit high level however with google anything is possible.
+
+Service:
+1. The service is called "learning_challenge_service"
+2. Functions available via RPC: square_odd_numbers_in_list, convert_string_list_to_encoded_dictionary and decode_string.
